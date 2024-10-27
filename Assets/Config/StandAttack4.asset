@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a25ba77d1fae984d98ff3ca77e1fc24, type: 3}
+  m_Name: StandAttack4
+  m_EditorClassIdentifier: 
+  AnimationName: StandAttack4
+  ReleaseData:
+    SpawnObj:
+      Prefab: {fileID: 8210445902439686638, guid: f08c1575ec8909d4b84ca9351d563300, type: 3}
+      AudioClip: {fileID: 0}
+      Position: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Time: 0
+    AudioClip: {fileID: 0}
+    CanRotate: 0
+    AttackData:
+      SpawnObj:
+        Prefab: {fileID: 0}
+        AudioClip: {fileID: 0}
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        Time: 0
+      AudioClip: {fileID: 0}
+      HitData:
+        DamgeValue: 0
+        HardTime: 0
+        RepelVelocity: {x: 0, y: 0, z: 0}
+        Down: 0
+        Break: 0
+        RepelTime: 0
+      ScreenImpulseValue: 0
+      ChromaticAberrationValue: 0
+      FreezeFrameTime: 0
+      FreezeGameTime: 0
+      SkillHitEFConfig: {fileID: 0}
+  AttackData:
+  - SpawnObj:
+      Prefab: {fileID: 5230350385279850369, guid: be24d215c729fc3488acc30b047e041a, type: 3}
+      AudioClip: {fileID: 0}
+      Position: {x: 0, y: 1, z: 0.17}
+      Rotation: {x: 0, y: 0, z: 112.5}
+      Scale: {x: 1, y: 1, z: 1}
+      Time: 0
+    AudioClip: {fileID: 8300000, guid: 2996590eee94d3242a3b484bd26423f5, type: 3}
+    HitData:
+      DamgeValue: 10
+      HardTime: 0.75
+      RepelVelocity: {x: 0, y: 1.5, z: 3}
+      Down: 1
+      Break: 0
+      RepelTime: 0.4
+    ScreenImpulseValue: 0.5
+    ChromaticAberrationValue: 0.5
+    FreezeFrameTime: 0.1
+    FreezeGameTime: 0
+    SkillHitEFConfig: {fileID: 11400000, guid: 77aa0faaa35c46440a1fd703dbfa9d78, type: 2}

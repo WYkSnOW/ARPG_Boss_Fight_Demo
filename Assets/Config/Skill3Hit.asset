@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d06587d3b47f741948275065f07603, type: 3}
+  m_Name: Skill3Hit
+  m_EditorClassIdentifier: 
+  SpawnObject:
+    Prefab: {fileID: 1606440959859367600, guid: 1fc8c50f41dcfd44c8d38aec86ab195d, type: 3}
+    AudioClip: {fileID: 8300000, guid: 7748e5c612da6f04f9895e4cc9780e14, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    Time: 0
+  AudioClip: {fileID: 0}
+  FailSpawnObject:
+    Prefab: {fileID: 1412282172132700443, guid: 80f2f0dbeff36634b9a3534110bdd607, type: 3}
+    AudioClip: {fileID: 8300000, guid: 48b8470d88239674e83b65b505e1d1d7, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 0.3, y: 0.3, z: 0.3}
+    Time: 0

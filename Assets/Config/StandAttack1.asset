@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a25ba77d1fae984d98ff3ca77e1fc24, type: 3}
+  m_Name: StandAttack1
+  m_EditorClassIdentifier: 
+  AnimationName: StandAttack1
+  ReleaseData:
+    SpawnObj:
+      Prefab: {fileID: 8210445902439686638, guid: f08c1575ec8909d4b84ca9351d563300, type: 3}
+      AudioClip: {fileID: 0}
+      Position: {x: 0, y: 0, z: 0}
+      Rotation: {x: 0, y: 0, z: 0}
+      Scale: {x: 0, y: 0, z: 0}
+      Time: 0
+    AudioClip: {fileID: 0}
+    CanRotate: 1
+    AttackData:
+      SpawnObj:
+        Prefab: {fileID: 0}
+        AudioClip: {fileID: 0}
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 0, z: 0}
+        Scale: {x: 1, y: 1, z: 1}
+        Time: 0
+      AudioClip: {fileID: 0}
+      HitData:
+        DamgeValue: 0
+        HardTime: 0
+        RepelVelocity: {x: 0, y: 0, z: 0}
+        Down: 0
+        Break: 0
+        RepelTime: 0
+      ScreenImpulseValue: 0
+      ChromaticAberrationValue: 0
+      FreezeFrameTime: 0
+      FreezeGameTime: 0
+      SkillHitEFConfig: {fileID: 0}
+  AttackData:
+  - SpawnObj:
+      Prefab: {fileID: 9068624454220128171, guid: b3f3a6218be24254f9ce07de1db0c92d, type: 3}
+      AudioClip: {fileID: 0}
+      Position: {x: 0, y: 1, z: -0.23}
+      Rotation: {x: 0, y: 0, z: 45}
+      Scale: {x: -1, y: 1, z: 1}
+      Time: 0
+    AudioClip: {fileID: 8300000, guid: 73552316b142dd147bcd1884fa6cd2f2, type: 3}
+    HitData:
+      DamgeValue: 5
+      HardTime: 0.7
+      RepelVelocity: {x: 0, y: 0, z: 0.2}
+      Down: 0
+      Break: 0
+      RepelTime: 0.1
+    ScreenImpulseValue: 0.5
+    ChromaticAberrationValue: 0.5
+    FreezeFrameTime: 0.1
+    FreezeGameTime: 0
+    SkillHitEFConfig: {fileID: 11400000, guid: e526b33eb3fc34d44921dd682f415ec1, type: 2}
